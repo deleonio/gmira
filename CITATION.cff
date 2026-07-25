@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "gmira"
+abstract: "GMIRA is a library of 21 Claude Code skills for building web interfaces that do not look AI-generated. It treats generic output as decision avoidance rather than a capability gap, and answers it with external assignment: a five block visual direction contract written before any element is placed, with the material world drawn by an external hash index. It wires 7 shadcn component registries (514 components) with a repair and taming pass on every install, holds a GPU performance floor for WebGL and canvas work covering frame budget, DPR caps, shader precision, context loss, teardown, offscreen pause and reduced motion, and gates every build with Playwright across 5 viewports. The name is Syriac gmira, perfect or complete."
+authors:
+  - family-names: Adi
+    given-names: Ahmad-Othman
+    alias: OthmanAdi
+version: "0.1.0"
+date-released: "2026-07-25"
+license: MIT
+url: "https://github.com/OthmanAdi/gmira"
+repository-code: "https://github.com/OthmanAdi/gmira"
+keywords:
+  - claude-code
+  - claude-code-skills
+  - agent-skills
+  - ai-agents
+  - web-design
+  - design-engineering
+  - design-system
+  - frontend
+  - shadcn-ui
+  - nextjs
+  - tailwindcss
+  - react
+  - webgl
+  - canvas
+  - creative-coding
+  - shaders
+  - gpu-performance-budget
+  - playwright
+  - visual-regression-testing
+  - accessibility
+  - anti-slop
+  - ai-slop

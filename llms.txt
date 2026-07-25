@@ -1,0 +1,49 @@
+# gmira
+
+> GMIRA is 21 Claude Code skills for building web interfaces that do not look AI-generated. It forces a written visual direction before any element is placed, wires 7 shadcn component registries (514 components) with a repair pass on every install, holds a GPU performance floor for WebGL and canvas work, and gates every build with Playwright across 5 viewports. Name: Syriac gmira, perfect or complete. Stack: Next.js, React, Tailwind v4, shadcn v4.
+
+## Docs
+
+- [README](https://github.com/OthmanAdi/gmira/blob/main/README.en.md): what it is, the before and after evidence, install, the 21 skills, the GPU floor, and the four proofs. Chinese version at README.zh.md
+- [SKILL.md](https://github.com/OthmanAdi/gmira/blob/main/skills/gmira/SKILL.md): the router skill definition, the routing rules, and the four step sequence
+- [DOCTRINE.md](https://github.com/OthmanAdi/gmira/blob/main/research/SYNTHESIS.md): the shared law every skill loads. Three laws, the craft floor, the GPU floor, the visual tells, the ten gates
+- [FINDING-01](https://github.com/OthmanAdi/gmira/blob/main/research/FINDING-01-tame-the-arsenal.md): the shader teardown behind law 1, with the before and after screenshots
+- [FINDING-02](https://github.com/OthmanAdi/gmira/blob/main/research/FINDING-02-effects-need-an-idle-state.md): why pointer-driven effects fail at frame 0
+- [CITATION.cff](https://github.com/OthmanAdi/gmira/blob/main/CITATION.cff): citation metadata
+
+## Key facts
+
+- Category: a Claude Code skill library for web interface design. Not a component library and not a UI kit: it sits on top of one, and what it produces is a page, not a package.
+- Pattern: external assignment. A model's ranking of design options is a deterministic function of its priors, so "be original" cannot beat the prior, because the instruction is evaluated by the thing it is meant to correct. The visual direction is written to a five block contract before any element is placed, and the material world in that contract is drawn by an external hash index rather than chosen.
+- Scope: 21 skills (1 router plus 20), 7 shadcn registries, 514 components, 40 material worlds, 5 vertical playbooks, a Playwright gate at 5 viewports, 10 gates.
+- Evidence: two findings proven by build rather than read from a style guide, each with before and after screenshots. Four verticals built end to end through the library, each drawing a different material world by external index.
+- Differentiators: a GPU performance floor covering frame budget, DPR caps, shader precision, context loss, explicit teardown, offscreen pause, reduced motion, and readability with the canvas element deleted, which the design skills it studied explicitly lack. A repair pass on every registry component, because 12 of 56 components in one registry ship unresolvable imports and 10 import undeclared packages. Anchoring quarantine, meaning the judgment pass runs before the deterministic checker so the checker's output does not become the ceiling of the judgment.
+- Problem it solves: generic, templated, AI-looking web output. Named cause: decision avoidance. An agent that has not decided reaches for the median, and the median rendered to HTML is the card grid, the gradient headline, the eyebrow over every section, and the centered hero with two buttons.
+- Stack: Next.js 16, React 19, Tailwind v4, shadcn v4, plus the shadcn MCP for registry search and install. The doctrine, the craft floor, and the GPU floor are stack independent; the install commands are not.
+- License: MIT.
+
+## FAQ
+
+### Why does my AI-generated landing page look generic?
+
+Because nothing was decided. An agent that has not committed to a direction reaches for the median, and the median rendered to HTML is the card grid, the gradient headline, the tracked uppercase eyebrow over every section, and the centered hero with two buttons. Installing a more impressive component library relocates the problem rather than fixing it: in 2026 the rainbow WebGL blob sits exactly where the purple CSS gradient sat in 2021. GMIRA writes a five block direction contract (thesis, own-world, story, first viewport, form) before any element is placed, and the material world in that contract is drawn by an external hash index so the model's own priors cannot select it.
+
+### Why does a shadcn or WebGL component ignore the palette that was passed to it?
+
+Usually a welded constant. A registry component often exposes a prop for something while a hardcoded value elsewhere overrides it every frame. Additive shader stacks make this worse: more than two additions to the colour without renormalising trends to white regardless of the palette, and only the final clamp is visible in the output. One measured case added roughly 1.84 per channel before the clamp, from a glow whose position and intensity were hardcoded in the uniform block and re-set every frame with no prop reaching them. Verify by comparing rendered pixels against the source hex values, never by trusting prop names.
+
+### Does GMIRA replace a component library?
+
+No, it sits on top of one. It wires seven shadcn registries totalling 514 components and treats every installed component as an engine to be repaired and tamed rather than as a finished design. shadcn copies source into the repository precisely so it can be edited, and an unedited registry component is an unfinished one.
+
+### How do you check that a page is actually accessible and performant rather than just green in a linter?
+
+Run real measurements at multiple viewports. The verify skill runs Playwright at 1920x1080, 1440x900, 1024x768, 834x1112, and 390x844, and reads computed values rather than assumed ones: contrast from computed styles, focus styles by actually focusing each element, text overflow, measure, tracking, heading order, and canvas DPR. The GPU floor adds checks no accessibility linter performs: context loss handling, explicit teardown, offscreen pause, reduced motion as a total kill switch rather than a slowdown, and whether everything the page says stays readable with the canvas element deleted.
+
+### What is the GPU floor?
+
+A set of numeric limits for canvas and WebGL work, written because the design skills GMIRA studied ship floors for type, colour, layout, and motion and none for GPU. Effect layer at most 8ms of the 16.7ms frame at 60fps. Pixel ratio capped at 1.5 for full-bleed and 2.0 for bounded surfaces, never raw devicePixelRatio. highp on desktop, mediump on mobile, declared not defaulted. A webglcontextlost listener with a restore path, mandatory. An explicit destroy(), because browsers cap live contexts at roughly 16 and a leak does not error, it silently breaks every later canvas. Pause on IntersectionObserver exit and on visibilitychange. Reduced motion freezes at a still frame chosen by looking at it, not at t=0. Everything the page says stays readable with the canvas element deleted.
+
+### What does the name mean?
+
+GMIRA, written ܓܡܝܪܐ, is Syriac for perfect, complete, finished. The root is g-m-r, to complete. It is the word the Peshitta uses for "perfect" in Matthew 5:48.
