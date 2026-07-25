@@ -210,11 +210,40 @@ cp -r gmira/skills/* ~/.claude/skills/
 | GTM 与 UGC 投放学院 | 拳赛节目单与垫场赛 | 每一条广告都按一场拳赛来排位，包括亏钱的那条。垫场赛部分的字号是按每周产出量算出来的 |
 | 商店 | 种子袋货架融合染坊色卡 | 商品挂在导轨上，而不是摆在网格里。每个颜色都带一个耐光牢度数值，画成八个填色方块 |
 
-![汽车经销商实证页在 1440x900 下的截图：等宽字体的拍品编号、发丝线分隔的清单、旋转盖印的车况等级章、以印成落槌估价的价格，没有首屏大图，也没有卡片](proofs/proof-car/1440x900.png)
+下面每一张都是 `lab/` 里的真实截图，由 `scripts/shot.mjs` 在同一天、同一尺寸、同一套技能库下拍出来的。没有一张是效果图。
+
+<table>
+  <tr>
+    <td width="25%"><img src="docs/screenshots/car.jpg" alt="汽车经销商拍品清单：等宽拍品编号、发丝线、旋转的车况等级章、落槌估价，没有首屏大图也没有卡片" /></td>
+    <td width="25%"><img src="docs/screenshots/school.jpg" alt="AI 学院工艺路线卡：零件号、工艺版本、旋转的 RELEASED 印章、左边缘的装订孔，右侧是派工单" /></td>
+    <td width="25%"><img src="docs/screenshots/ads.jpg" alt="投放学院拳赛节目单：土黄色纸张、粗黑木活字、主赛对阵行与垫场赛" /></td>
+    <td width="25%"><img src="docs/screenshots/shop.jpg" alt="商店导轨：天然染料批次，带植物学名与画成填色方块的耐光牢度" /></td>
+  </tr>
+  <tr>
+    <td><b>汽车经销商</b><br/><sub>工业设备拍卖图录</sub></td>
+    <td><b>应用型 AI 学院</b><br/><sub>车间流转卡</sub></td>
+    <td><b>投放与 UGC 学院</b><br/><sub>拳赛节目单</sub></td>
+    <td><b>商店</b><br/><sub>种子袋货架</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/car-lot.jpg" alt="单车详情页：先列出车况提示和修复报价，再是按系统分组、单位写在标签里的测量登记表" /></td>
+    <td><img src="docs/screenshots/school-op.jpg" alt="工艺路线里的单道工序页，带验收标准和操作者印章" /></td>
+    <td><img src="docs/screenshots/ads-teardown.jpg" alt="创意拆解页，每一个投放数字都标了示例，并注明不可核验" /></td>
+    <td><img src="docs/screenshots/shop-order.jpg" alt="结账配送步骤：把还没做的步骤也一并列出，真实的库存保留倒计时，总价里写明增值税" /></td>
+  </tr>
+  <tr>
+    <td><sub>详情页，车况提示在最前</sub></td>
+    <td><sub>单道工序页</sub></td>
+    <td><sub>拆解页，含亏损案例</sub></td>
+    <td><sub>结账，特效预算为零</sub></td>
+  </tr>
+</table>
 
 汽车经销商抽到索引 0，工业设备拍卖图录。没有首屏大图。没有卡片。没有渐变。拍品编号用等宽字体，车况等级做成旋转的印章，价格印成落槌估价，全页只有一种 0.5px 的横线粗细。
 
-十道关在五个视口上全绿。
+商店抽到的是 Operate 模式，所以它的特效预算接近零，全程没有装任何一个 WebGL 组件。这份实证的存在，就是为了证明这套库知道什么时候该收手。
+
+十道关在五个视口上全绿，上面每一条路由都是。
 
 ## 常见问题
 

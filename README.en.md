@@ -210,11 +210,40 @@ Four verticals, each built through the library, each drawing its material world 
 | GTM and UGC ads school | Boxing fight bill and undercard | Every ad is billed as a bout, including the one that lost money. Display size on the undercard is computed from each week's output count |
 | Store | Seed packet rack fused with a dyer shade card | Products hang from a rail instead of sitting in a grid. Every colour carries a lightfastness figure drawn as eight filled boxes |
 
-![The car dealership proof at 1440x900: a lot list with mono lot numbers, hairline rules, rotated condition-grade stamps, and hammer estimate prices, with no hero photograph and no cards](proofs/proof-car/1440x900.png)
+Every image below is a real capture from `lab/`, taken by `scripts/shot.mjs` at the same size, on the same day, from the same skill library. Nothing is a mockup.
+
+<table>
+  <tr>
+    <td width="25%"><img src="docs/screenshots/car.jpg" alt="Car dealership lot list: mono lot numbers, hairline rules, rotated condition grade stamps, hammer estimate prices, no hero photograph and no cards" /></td>
+    <td width="25%"><img src="docs/screenshots/school.jpg" alt="AI school routing card: part number, routing revision, a rotated RELEASED stamp, punched binder holes down the left edge, and a work order sidebar" /></td>
+    <td width="25%"><img src="docs/screenshots/ads.jpg" alt="Ads school fight bill: goldenrod stock, heavy black wood type, a main event bout line and an undercard" /></td>
+    <td width="25%"><img src="docs/screenshots/shop.jpg" alt="Store rack: natural dye lots with botanical names and blue wool lightfastness scales drawn as filled boxes" /></td>
+  </tr>
+  <tr>
+    <td><b>Car dealership</b><br/><sub>Industrial auction catalogue</sub></td>
+    <td><b>Applied AI school</b><br/><sub>Machine shop job traveller</sub></td>
+    <td><b>Ads and UGC school</b><br/><sub>Boxing fight bill</sub></td>
+    <td><b>Store</b><br/><sub>Seed packet rack</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/screenshots/car-lot.jpg" alt="Vehicle lot page: advisories listed first with rectification quotes, then a measurement register grouped by system with units in the label" /></td>
+    <td><img src="docs/screenshots/school-op.jpg" alt="A single operation sheet from the routing, with its acceptance test and operator stamp" /></td>
+    <td><img src="docs/screenshots/ads-teardown.jpg" alt="Creative teardown page, with every performance figure tagged illustrative and marked not resolvable" /></td>
+    <td><img src="docs/screenshots/shop-order.jpg" alt="Checkout delivery step: named steps including the ones not built, a real stock hold deadline, and VAT disclosed in the total" /></td>
+  </tr>
+  <tr>
+    <td><sub>Lot page. Advisories first</sub></td>
+    <td><sub>Operation sheet</sub></td>
+    <td><sub>Teardown, loss included</sub></td>
+    <td><sub>Checkout, effects at zero</sub></td>
+  </tr>
+</table>
 
 The car dealership drew index 0, industrial auction catalogue. No hero photograph. No cards. No gradient. Lot numbers in mono, condition grades struck as rotated stamps, prices printed as hammer estimates, one horizontal rule weight at 0.5px.
 
-All ten gates green at five viewports.
+The store drew Operate mode, so its effect budget is near zero and no WebGL component was installed at all. That proof exists to show the library knows when to stop.
+
+All ten gates green at five viewports, on every route above.
 
 ## FAQ
 
