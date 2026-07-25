@@ -1,0 +1,30 @@
+# The four cloned reference repos. Their extracted technique lives in research/ instead.
+_sources/
+
+# lab
+lab/node_modules/
+lab/.next/
+lab/out/
+lab/build/
+lab/.vercel/
+lab/next-env.d.ts
+lab/.env*
+!lab/.env.example
+
+# playwright
+.playwright-mcp/
+test-results/
+playwright-report/
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*

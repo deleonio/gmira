@@ -1,0 +1,20 @@
+{
+  "name": "gmira",
+  "version": "0.1.0",
+  "description": "21 skills for building web surfaces nobody can tell were generated. Forces a written visual direction before any element is placed, then supplies 514 curated components across 7 registries, a GPU performance floor, and a Playwright gate that reads its own screenshots.",
+  "author": {
+    "name": "Ahmad-Othman Adi"
+  },
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "frontend",
+    "webgl",
+    "canvas",
+    "shadcn",
+    "tailwind",
+    "nextjs",
+    "accessibility",
+    "playwright"
+  ]
+}

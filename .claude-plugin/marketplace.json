@@ -1,0 +1,37 @@
+{
+  "name": "gmira",
+  "owner": {
+    "name": "Ahmad-Othman Adi",
+    "url": "https://github.com/OthmanAdi"
+  },
+  "metadata": {
+    "description": "GMIRA. 21 skills for building web surfaces nobody can tell were generated. Forces a written visual direction before any element is placed, wires 7 shadcn registries, ships a GPU performance floor and a five-viewport Playwright gate.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "gmira",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "21 web design skills: direction before elements, 514 curated components across 7 registries, a GPU floor for canvas and WebGL work, and a Playwright gate that reads its own screenshots.",
+      "author": {
+        "name": "Ahmad-Othman Adi"
+      },
+      "license": "MIT",
+      "keywords": [
+        "design",
+        "frontend",
+        "webgl",
+        "canvas",
+        "shadcn",
+        "tailwind",
+        "nextjs",
+        "react",
+        "accessibility",
+        "playwright",
+        "typography",
+        "anti-slop"
+      ]
+    }
+  ]
+}
