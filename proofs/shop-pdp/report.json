@@ -1,0 +1,117 @@
+{
+  "url": "http://localhost:4311/proof/shop/packet/marschdecke",
+  "when": "2026-07-25T08:39:44.264Z",
+  "reduced": false,
+  "deleteCanvas": false,
+  "viewports": [
+    {
+      "viewport": "1920x1080",
+      "screenshot": "..\\proofs\\shop-pdp\\1920x1080.png",
+      "screenshotFull": "..\\proofs\\shop-pdp\\1920x1080-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [],
+      "measure": [],
+      "tracking": [],
+      "focusless": [],
+      "canvases": [],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "1440x900",
+      "screenshot": "..\\proofs\\shop-pdp\\1440x900.png",
+      "screenshotFull": "..\\proofs\\shop-pdp\\1440x900-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [],
+      "measure": [],
+      "tracking": [],
+      "focusless": [],
+      "canvases": [],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "1024x768",
+      "screenshot": "..\\proofs\\shop-pdp\\1024x768.png",
+      "screenshotFull": "..\\proofs\\shop-pdp\\1024x768-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [],
+      "measure": [
+        {
+          "el": "li: Not made. Walnut in 130x190: Walnut comes from one hull harv",
+          "ch": 43,
+          "chars": 159
+        },
+        {
+          "el": "p: Leaves Tuesday 2026-07-28, with you 2026-07-29 to 2026-07-31",
+          "ch": 41,
+          "chars": 93
+        }
+      ],
+      "tracking": [],
+      "focusless": [],
+      "canvases": [],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "834x1112",
+      "screenshot": "..\\proofs\\shop-pdp\\834x1112.png",
+      "screenshotFull": "..\\proofs\\shop-pdp\\834x1112-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [],
+      "measure": [],
+      "tracking": [],
+      "focusless": [],
+      "canvases": [],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "390x844",
+      "screenshot": "..\\proofs\\shop-pdp\\390x844.png",
+      "screenshotFull": "..\\proofs\\shop-pdp\\390x844-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [],
+      "measure": [],
+      "tracking": [],
+      "focusless": [],
+      "canvases": [],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    }
+  ],
+  "totals": {
+    "consoleErrors": 0,
+    "contrastFailures": 0,
+    "contrastUncheckable": 0,
+    "overflow": 0,
+    "measureOutOfRange": 2,
+    "trackingTooTight": 0,
+    "missingFocusStyles": 0,
+    "headingSkips": 0,
+    "imagesMissingAlt": 0,
+    "horizontalPageScroll": [],
+    "dprOverCap": []
+  }
+}

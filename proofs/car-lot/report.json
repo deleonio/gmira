@@ -1,0 +1,180 @@
+{
+  "url": "http://localhost:4311/proof/car/K-2291",
+  "when": "2026-07-25T07:41:45.707Z",
+  "reduced": false,
+  "deleteCanvas": false,
+  "viewports": [
+    {
+      "viewport": "1920x1080",
+      "screenshot": "..\\proofs\\car-lot\\1920x1080.png",
+      "screenshotFull": "..\\proofs\\car-lot\\1920x1080-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [
+        {
+          "el": "div: BGrade",
+          "axis": "x",
+          "by": 3
+        }
+      ],
+      "measure": [
+        {
+          "el": "p: Cosmetic only. Listed marks, no mechanical work outstanding.",
+          "ch": 78,
+          "chars": 119
+        }
+      ],
+      "tracking": [],
+      "focusless": [],
+      "canvases": [],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "1440x900",
+      "screenshot": "..\\proofs\\car-lot\\1440x900.png",
+      "screenshotFull": "..\\proofs\\car-lot\\1440x900-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [
+        {
+          "el": "div: BGrade",
+          "axis": "x",
+          "by": 3
+        }
+      ],
+      "measure": [
+        {
+          "el": "p: Cosmetic only. Listed marks, no mechanical work outstanding.",
+          "ch": 78,
+          "chars": 119
+        }
+      ],
+      "tracking": [],
+      "focusless": [],
+      "canvases": [],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "1024x768",
+      "screenshot": "..\\proofs\\car-lot\\1024x768.png",
+      "screenshotFull": "..\\proofs\\car-lot\\1024x768-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [
+        {
+          "el": "div: BGrade",
+          "axis": "x",
+          "by": 3
+        }
+      ],
+      "measure": [
+        {
+          "el": "p: Cosmetic only. Listed marks, no mechanical work outstanding.",
+          "ch": 78,
+          "chars": 119
+        }
+      ],
+      "tracking": [],
+      "focusless": [],
+      "canvases": [],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "834x1112",
+      "screenshot": "..\\proofs\\car-lot\\834x1112.png",
+      "screenshotFull": "..\\proofs\\car-lot\\834x1112-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [
+        {
+          "el": "div: BGrade",
+          "axis": "x",
+          "by": 3
+        }
+      ],
+      "measure": [
+        {
+          "el": "p: Cosmetic only. Listed marks, no mechanical work outstanding.",
+          "ch": 78,
+          "chars": 119
+        }
+      ],
+      "tracking": [],
+      "focusless": [],
+      "canvases": [],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "390x844",
+      "screenshot": "..\\proofs\\car-lot\\390x844.png",
+      "screenshotFull": "..\\proofs\\car-lot\\390x844-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [
+        {
+          "el": "div: Lot 101K-2291Volkswagen ID.4Pro Performance 77 kWh",
+          "axis": "x",
+          "by": 96
+        },
+        {
+          "el": "p: Lot 101K-2291",
+          "axis": "x",
+          "by": 34
+        },
+        {
+          "el": "h1: Volkswagen ID.4Pro Performance 77 kWh",
+          "axis": "x",
+          "by": 96
+        },
+        {
+          "el": "span: Pro Performance 77 kWh",
+          "axis": "x",
+          "by": 96
+        },
+        {
+          "el": "div: BGrade",
+          "axis": "x",
+          "by": 3
+        }
+      ],
+      "measure": [],
+      "tracking": [],
+      "focusless": [],
+      "canvases": [],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    }
+  ],
+  "totals": {
+    "consoleErrors": 0,
+    "contrastFailures": 0,
+    "contrastUncheckable": 0,
+    "overflow": 9,
+    "measureOutOfRange": 4,
+    "trackingTooTight": 0,
+    "missingFocusStyles": 0,
+    "headingSkips": 0,
+    "imagesMissingAlt": 0,
+    "horizontalPageScroll": [],
+    "dprOverCap": []
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "url": "http://localhost:4311/smoke-liquid",
+  "when": "2026-07-25T07:30:57.781Z",
+  "reduced": false,
+  "deleteCanvas": false,
+  "viewports": [
+    {
+      "viewport": "1920x1080",
+      "screenshot": "..\\proofs\\verify-smoke\\1920x1080.png",
+      "screenshotFull": "..\\proofs\\verify-smoke\\1920x1080-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [],
+      "measure": [],
+      "tracking": [],
+      "focusless": [
+        {
+          "el": "button: Book a test drive"
+        },
+        {
+          "el": "button: See the inventory"
+        }
+      ],
+      "canvases": [
+        {
+          "css": "0x0",
+          "buffer": "300x150",
+          "effectiveDpr": null,
+          "dprOverCap": false,
+          "ariaHidden": false,
+          "pointerEventsNone": false,
+          "contextLost": "2d-or-none"
+        },
+        {
+          "css": "1920x1080",
+          "buffer": "1920x1080",
+          "effectiveDpr": 1,
+          "dprOverCap": false,
+          "ariaHidden": true,
+          "pointerEventsNone": true,
+          "contextLost": false
+        }
+      ],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "1440x900",
+      "screenshot": "..\\proofs\\verify-smoke\\1440x900.png",
+      "screenshotFull": "..\\proofs\\verify-smoke\\1440x900-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [],
+      "measure": [],
+      "tracking": [],
+      "focusless": [
+        {
+          "el": "button: Book a test drive"
+        },
+        {
+          "el": "button: See the inventory"
+        }
+      ],
+      "canvases": [
+        {
+          "css": "0x0",
+          "buffer": "300x150",
+          "effectiveDpr": null,
+          "dprOverCap": false,
+          "ariaHidden": false,
+          "pointerEventsNone": false,
+          "contextLost": "2d-or-none"
+        },
+        {
+          "css": "1440x900",
+          "buffer": "1440x900",
+          "effectiveDpr": 1,
+          "dprOverCap": false,
+          "ariaHidden": true,
+          "pointerEventsNone": true,
+          "contextLost": false
+        }
+      ],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "1024x768",
+      "screenshot": "..\\proofs\\verify-smoke\\1024x768.png",
+      "screenshotFull": "..\\proofs\\verify-smoke\\1024x768-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [],
+      "measure": [],
+      "tracking": [],
+      "focusless": [
+        {
+          "el": "button: Book a test drive"
+        },
+        {
+          "el": "button: See the inventory"
+        }
+      ],
+      "canvases": [
+        {
+          "css": "0x0",
+          "buffer": "300x150",
+          "effectiveDpr": null,
+          "dprOverCap": false,
+          "ariaHidden": false,
+          "pointerEventsNone": false,
+          "contextLost": "2d-or-none"
+        },
+        {
+          "css": "1024x768",
+          "buffer": "1024x768",
+          "effectiveDpr": 1,
+          "dprOverCap": false,
+          "ariaHidden": true,
+          "pointerEventsNone": true,
+          "contextLost": false
+        }
+      ],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "834x1112",
+      "screenshot": "..\\proofs\\verify-smoke\\834x1112.png",
+      "screenshotFull": "..\\proofs\\verify-smoke\\834x1112-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [],
+      "measure": [],
+      "tracking": [],
+      "focusless": [
+        {
+          "el": "button: Book a test drive"
+        },
+        {
+          "el": "button: See the inventory"
+        }
+      ],
+      "canvases": [
+        {
+          "css": "0x0",
+          "buffer": "300x150",
+          "effectiveDpr": null,
+          "dprOverCap": false,
+          "ariaHidden": false,
+          "pointerEventsNone": false,
+          "contextLost": "2d-or-none"
+        },
+        {
+          "css": "834x1112",
+          "buffer": "834x1112",
+          "effectiveDpr": 1,
+          "dprOverCap": false,
+          "ariaHidden": true,
+          "pointerEventsNone": true,
+          "contextLost": false
+        }
+      ],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    },
+    {
+      "viewport": "390x844",
+      "screenshot": "..\\proofs\\verify-smoke\\390x844.png",
+      "screenshotFull": "..\\proofs\\verify-smoke\\390x844-full.png",
+      "consoleErrors": [],
+      "pageErrors": [],
+      "horizontalPageScroll": false,
+      "contrast": [],
+      "overflow": [],
+      "measure": [],
+      "tracking": [],
+      "focusless": [
+        {
+          "el": "button: Book a test drive"
+        },
+        {
+          "el": "button: See the inventory"
+        }
+      ],
+      "canvases": [
+        {
+          "css": "0x0",
+          "buffer": "300x150",
+          "effectiveDpr": null,
+          "dprOverCap": false,
+          "ariaHidden": false,
+          "pointerEventsNone": false,
+          "contextLost": "2d-or-none"
+        },
+        {
+          "css": "390x844",
+          "buffer": "390x844",
+          "effectiveDpr": 1,
+          "dprOverCap": false,
+          "ariaHidden": true,
+          "pointerEventsNone": true,
+          "contextLost": false
+        }
+      ],
+      "headings": [],
+      "images": [],
+      "textWithoutBackdrop": 0
+    }
+  ],
+  "totals": {
+    "consoleErrors": 0,
+    "contrastFailures": 0,
+    "contrastUncheckable": 0,
+    "overflow": 0,
+    "measureOutOfRange": 0,
+    "trackingTooTight": 0,
+    "missingFocusStyles": 10,
+    "headingSkips": 0,
+    "imagesMissingAlt": 0,
+    "horizontalPageScroll": [],
+    "dprOverCap": []
+  }
+}
