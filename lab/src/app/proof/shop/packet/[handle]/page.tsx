@@ -60,7 +60,7 @@ function deliveryLine(handlingDays: number, min: number, max: number) {
 
 function SpecRow({ k, children }: { k: string; children: React.ReactNode }) {
   return (
-    <div className="grid grid-cols-1 gap-x-4 gap-y-1 border-b border-[var(--rule)] py-2 sm:grid-cols-[7rem_1fr] lg:grid-cols-[8.5rem_1fr]">
+    <div className="grid grid-cols-1 gap-x-4 gap-y-1 border-b border-[var(--rule)] py-2 sm:grid-cols-[7rem_1fr] xl:grid-cols-[8.5rem_1fr]">
       <dt className="font-[family-name:var(--font-spec)] text-[11px] uppercase tracking-[0.1em] text-[var(--ink-3)]">
         {k}
       </dt>
@@ -152,7 +152,7 @@ export default async function PacketPage({
         </p>
       </header>
 
-      <div className="mt-8 grid items-start gap-x-10 gap-y-10 lg:grid-cols-[1fr_22rem] xl:grid-cols-[1fr_minmax(340px,25rem)]">
+      <div className="mt-8 grid items-start gap-x-10 gap-y-10 lg:grid-cols-[1fr_24rem] xl:grid-cols-[1fr_minmax(340px,25rem)]">
         {/* Buy panel first in the DOM, so a phone gets price and variant before the description.
             Desktop lifts it into the second column of the first row. */}
         <div className="lg:col-start-2 lg:row-start-1">

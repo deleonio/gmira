@@ -267,6 +267,73 @@ cp -r gmira/skills/* ~/.claude/skills/
 
 Next.js 16、React 19、Tailwind v4、shadcn v4，以及用于注册表搜索和安装的 shadcn MCP。教义、手艺底线和 GPU 底线本身不依赖技术栈，安装命令和注册表配置依赖。
 
+## 每个技能一张样张
+
+二十张样张，每个技能一张，全部由这套库自己构建，按同一尺寸拍摄。每一张都刻意做成不同的印刷世界：如果它们长得都一样，这套库就在自己的文档里推翻了自己的主张。源码在 [`lab/src/app/specimen/`](lab/src/app/specimen/)。
+
+<table>
+  <tr>
+    <td width="25%"><img src="docs/specimens/brief.jpg" alt="gmira-brief：填写在纸质受理单上的页面简报，不可编造的项目已标出" /></td>
+    <td width="25%"><img src="docs/specimens/direction.jpg" alt="gmira-direction：盖章确认的五段式方向契约，旁边是被排除的行业套路和它的反面" /></td>
+    <td width="25%"><img src="docs/specimens/palette.jpg" alt="gmira-palette：矿物颜料色卡，每块印着实测对比度，其中一块不达标" /></td>
+    <td width="25%"><img src="docs/specimens/typeset.jpg" alt="gmira-typeset：字号阶梯、压在段落上的行宽标尺、以及两行标题演示的字距下限" /></td>
+  </tr>
+  <tr>
+    <td><b><code>gmira-brief</code></b><br/><sub>打在受理单上的简报</sub></td>
+    <td><b><code>gmira-direction</code></b><br/><sub>契约盖章，两份反面证物被否</sub></td>
+    <td><b><code>gmira-palette</code></b><br/><sub>色卡带实测对比度，一块不达标</sub></td>
+    <td><b><code>gmira-typeset</code></b><br/><sub>字阶、行宽标尺、字距下限</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/specimens/hero.jpg" alt="gmira-hero：胶片小样，对比第 0 帧空白面板与已播种的面板" /></td>
+    <td><img src="docs/specimens/scroll.jpg" alt="gmira-scroll：六段一模一样的淡入，对比一个真正编排过的高潮" /></td>
+    <td><img src="docs/specimens/catalog.jpg" alt="gmira-catalog：同样六件东西的四种排布方式，等大卡片网格被标为默认选项" /></td>
+    <td><img src="docs/specimens/detail.jpg" alt="gmira-detail：分组且标注来源的参数表，旁边是被标为失败的平铺列表" /></td>
+  </tr>
+  <tr>
+    <td><b><code>gmira-hero</code></b><br/><sub>第 0 帧空白对比已播种</sub></td>
+    <td><b><code>gmira-scroll</code></b><br/><sub>六段淡入对比一个高潮</sub></td>
+    <td><b><code>gmira-catalog</code></b><br/><sub>四种结构，一个默认被标出</sub></td>
+    <td><b><code>gmira-detail</code></b><br/><sub>分组参数表对比它的失败版</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/specimens/flow.jpg" alt="gmira-flow：六种字段状态，以及一条把没做的步骤也写出来的进度条" /></td>
+    <td><img src="docs/specimens/proof.jpg" alt="gmira-proof：被划掉的假客户墙和五星条，旁边是可用的替代阶梯" /></td>
+    <td><img src="docs/specimens/nav.jpg" alt="gmira-nav：印刷校样，横线式页头通过，悬浮胶囊导航被毙" /></td>
+    <td><img src="docs/specimens/arsenal.jpg" alt="gmira-arsenal：修复清单，下面是焊死常量与提为 prop 之后的对照" /></td>
+  </tr>
+  <tr>
+    <td><b><code>gmira-flow</code></b><br/><sub>六种字段状态，诚实的进度条</sub></td>
+    <td><b><code>gmira-proof</code></b><br/><sub>禁用的背书对比真实替代</sub></td>
+    <td><b><code>gmira-nav</code></b><br/><sub>横线页头通过，胶囊导航被毙</sub></td>
+    <td><b><code>gmira-arsenal</code></b><br/><sub>修复清单，焊死对比驯服</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/specimens/canvas.jpg" alt="gmira-canvas：GPU 底线做成一组带铆钉的仪表盘，读数是真实数值" /></td>
+    <td><img src="docs/specimens/motion.jpg" alt="gmira-motion：时长与缓动表画成实体的时间轨" /></td>
+    <td><img src="docs/specimens/states.jpg" alt="gmira-states：一块板上的六种按钮状态与三类空状态" /></td>
+    <td><img src="docs/specimens/slop.jpg" alt="gmira-slop：十二条视觉破绽的印刷审计表，五条命中七条通过" /></td>
+  </tr>
+  <tr>
+    <td><b><code>gmira-canvas</code></b><br/><sub>GPU 底线做成仪表盘</sub></td>
+    <td><b><code>gmira-motion</code></b><br/><sub>时长与缓动画成时间轨</sub></td>
+    <td><b><code>gmira-states</code></b><br/><sub>六种状态，三类空状态</sub></td>
+    <td><b><code>gmira-slop</code></b><br/><sub>十二条破绽的审计表</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/specimens/a11y.jpg" alt="gmira-a11y：五组文字与底色的对比度，标在 WCAG 阈值线上" /></td>
+    <td><img src="docs/specimens/perf.jpg" alt="gmira-perf：绿格账簿，记着包体积、WebGL 上下文上限和 LCP 规则" /></td>
+    <td><img src="docs/specimens/verify.jpg" alt="gmira-verify：按比例画出的五个视口，配验收表和隔离判断规则" /></td>
+    <td><img src="docs/specimens/ship.jpg" alt="gmira-ship：钢制写字板上的放行清单，全部打勾，部署一项等明确指令" /></td>
+  </tr>
+  <tr>
+    <td><b><code>gmira-a11y</code></b><br/><sub>对比度对照 WCAG 阈值线</sub></td>
+    <td><b><code>gmira-perf</code></b><br/><sub>预算的绿格账簿</sub></td>
+    <td><b><code>gmira-verify</code></b><br/><sub>五个视口、验收关、隔离规则</sub></td>
+    <td><b><code>gmira-ship</code></b><br/><sub>放行清单，部署等指令</sub></td>
+  </tr>
+</table>
+
 ## 站在谁的肩膀上
 
 研究过，并致谢：[pbakaus/impeccable](https://github.com/pbakaus/impeccable) 提供了品味引擎与反默认机制，[DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) 提供了 html-in-canvas 的技法，[bklit/bklit-ui](https://github.com/bklit/bklit-ui) 提供了图表构成与技能打包方式，[ncdai/chanhdai.com](https://github.com/ncdai/chanhdai.com) 提供了结构层面的手艺，[componentry](https://componentry.dev) 提供了军火库。

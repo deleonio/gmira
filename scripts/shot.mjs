@@ -68,6 +68,11 @@ for (const j of jobs) {
     const res = await page.goto(j.url, { waitUntil: "networkidle", timeout: 45_000 });
     const status = res?.status() ?? 0;
     if (status >= 400) throw new Error(`HTTP ${status}`);
+    // The dev overlay is a custom element that would otherwise sit in every capture.
+    // Hiding it here keeps it out of all shots without editing each page.
+    await page.addStyleTag({
+      content: "nextjs-portal,[data-nextjs-toast],#__next-build-watcher{display:none!important}",
+    }).catch(() => {});
     await page.waitForTimeout(wait);
     await mkdir(dirname(j.out), { recursive: true });
     await page.screenshot({

@@ -1,6 +1,6 @@
 # gmira-verify
 URL: http://localhost:4311/proof/shop
-When: 2026-07-25T08:39:30.908Z
+When: 2026-07-25T08:41:47.933Z
 ## Mechanical totals
 | Check | Count |
 |---|---|

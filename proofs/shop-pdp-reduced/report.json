@@ -1,6 +1,6 @@
 {
   "url": "http://localhost:4311/proof/shop/packet/marschdecke",
-  "when": "2026-07-25T08:40:09.778Z",
+  "when": "2026-07-25T08:42:30.203Z",
   "reduced": true,
   "deleteCanvas": false,
   "viewports": [
@@ -47,18 +47,7 @@
       "horizontalPageScroll": false,
       "contrast": [],
       "overflow": [],
-      "measure": [
-        {
-          "el": "li: Not made. Walnut in 130x190: Walnut comes from one hull harv",
-          "ch": 43,
-          "chars": 159
-        },
-        {
-          "el": "p: Leaves Tuesday 2026-07-28, with you 2026-07-29 to 2026-07-31",
-          "ch": 41,
-          "chars": 93
-        }
-      ],
+      "measure": [],
       "tracking": [],
       "focusless": [],
       "canvases": [],
@@ -106,7 +95,7 @@
     "contrastFailures": 0,
     "contrastUncheckable": 0,
     "overflow": 0,
-    "measureOutOfRange": 2,
+    "measureOutOfRange": 0,
     "trackingTooTight": 0,
     "missingFocusStyles": 0,
     "headingSkips": 0,

@@ -1,6 +1,6 @@
 # gmira-verify
 URL: http://localhost:4311/proof/shop/packet/marschdecke
-When: 2026-07-25T08:39:44.264Z
+When: 2026-07-25T08:42:00.899Z
 ## Mechanical totals
 | Check | Count |
 |---|---|
@@ -8,7 +8,7 @@ When: 2026-07-25T08:39:44.264Z
 | Contrast failures | 0 |
 | Contrast uncheckable (text over image, gradient, or canvas) | 0 |
 | Clipped or overflowing elements | 0 |
-| Body measure outside 45 to 75ch | 2 |
+| Body measure outside 45 to 75ch | 0 |
 | Tracking below -0.04em | 0 |
 | Interactive elements with no focus style | 0 |
 | Heading level skips | 0 |

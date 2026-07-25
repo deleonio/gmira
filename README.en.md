@@ -267,6 +267,73 @@ No. It sits on top of one. GMIRA wires 7 shadcn registries totalling 514 compone
 
 Next.js 16, React 19, Tailwind v4, shadcn v4, and the shadcn MCP for registry search and install. The doctrine, the craft floor, and the GPU floor are stack independent. The install commands and the registry wiring are not.
 
+## One plate per skill
+
+Twenty specimen plates, one for each skill, each built by the library itself and captured at the same size. Each one is a different printed world on purpose: if they all looked alike, the library would be failing its own claim inside its own documentation. Sources live in [`lab/src/app/specimen/`](lab/src/app/specimen/).
+
+<table>
+  <tr>
+    <td width="25%"><img src="docs/specimens/brief.jpg" alt="gmira-brief: a surface brief typed onto a paper intake form, with the uninventable items marked" /></td>
+    <td width="25%"><img src="docs/specimens/direction.jpg" alt="gmira-direction: the five block direction contract stamped committed, beside the rejected rut and its excluded opposite" /></td>
+    <td width="25%"><img src="docs/specimens/palette.jpg" alt="gmira-palette: mineral pigment swatches with measured contrast printed on them, one of them failing" /></td>
+    <td width="25%"><img src="docs/specimens/typeset.jpg" alt="gmira-typeset: a type scale, a measure ruler laid over a paragraph, and the tracking floor shown on two headlines" /></td>
+  </tr>
+  <tr>
+    <td><b><code>gmira-brief</code></b><br/><sub>Brief typed onto an intake form</sub></td>
+    <td><b><code>gmira-direction</code></b><br/><sub>Contract stamped, two exhibits rejected</sub></td>
+    <td><b><code>gmira-palette</code></b><br/><sub>Swatches with measured contrast, one failing</sub></td>
+    <td><b><code>gmira-typeset</code></b><br/><sub>Scale, measure ruler, tracking floor</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/specimens/hero.jpg" alt="gmira-hero: a film contact sheet comparing an empty frame-0 panel against a seeded one" /></td>
+    <td><img src="docs/specimens/scroll.jpg" alt="gmira-scroll: six identical section fades beside one authored peak" /></td>
+    <td><img src="docs/specimens/catalog.jpg" alt="gmira-catalog: the same six specimens rendered four ways, with the uniform card grid flagged as the default" /></td>
+    <td><img src="docs/specimens/detail.jpg" alt="gmira-detail: a grouped and sourced spec table beside the flat list version marked as the failure" /></td>
+  </tr>
+  <tr>
+    <td><b><code>gmira-hero</code></b><br/><sub>Empty frame 0 versus seeded</sub></td>
+    <td><b><code>gmira-scroll</code></b><br/><sub>Six identical fades versus one peak</sub></td>
+    <td><b><code>gmira-catalog</code></b><br/><sub>Four structures, one flagged default</sub></td>
+    <td><b><code>gmira-detail</code></b><br/><sub>Grouped spec table beside its failure</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/specimens/flow.jpg" alt="gmira-flow: the six field states and a step bar that names the steps it cannot reach yet" /></td>
+    <td><img src="docs/specimens/proof.jpg" alt="gmira-proof: a forbidden logo wall and star row struck through, beside the substitution ladder" /></td>
+    <td><img src="docs/specimens/nav.jpg" alt="gmira-nav: a print proof sheet, the ruled header approved and the floating pill nav killed" /></td>
+    <td><img src="docs/specimens/arsenal.jpg" alt="gmira-arsenal: the repair table above a welded constant versus its tamed prop diff" /></td>
+  </tr>
+  <tr>
+    <td><b><code>gmira-flow</code></b><br/><sub>Six field states, honest step bar</sub></td>
+    <td><b><code>gmira-proof</code></b><br/><sub>Forbidden proof beside the real ladder</sub></td>
+    <td><b><code>gmira-nav</code></b><br/><sub>Ruled header approved, pill nav killed</sub></td>
+    <td><b><code>gmira-arsenal</code></b><br/><sub>Repair table, welded versus tamed</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/specimens/canvas.jpg" alt="gmira-canvas: the GPU floor rendered as a riveted gauge cluster with real values" /></td>
+    <td><img src="docs/specimens/motion.jpg" alt="gmira-motion: the duration and easing table drawn as physical timing tracks" /></td>
+    <td><img src="docs/specimens/states.jpg" alt="gmira-states: six button states and the three kinds of empty state on one board" /></td>
+    <td><img src="docs/specimens/slop.jpg" alt="gmira-slop: a printed audit sheet of the twelve visual tells, five found and seven clear" /></td>
+  </tr>
+  <tr>
+    <td><b><code>gmira-canvas</code></b><br/><sub>GPU floor as a gauge cluster</sub></td>
+    <td><b><code>gmira-motion</code></b><br/><sub>Duration and easing as timing tracks</sub></td>
+    <td><b><code>gmira-states</code></b><br/><sub>Six states, three kinds of empty</sub></td>
+    <td><b><code>gmira-slop</code></b><br/><sub>Audit sheet of the twelve tells</sub></td>
+  </tr>
+  <tr>
+    <td><img src="docs/specimens/a11y.jpg" alt="gmira-a11y: five contrast pairs plotted against the WCAG threshold lines" /></td>
+    <td><img src="docs/specimens/perf.jpg" alt="gmira-perf: a greenbar ledger of bundle weights, the WebGL context cap, and the LCP rule" /></td>
+    <td><img src="docs/specimens/verify.jpg" alt="gmira-verify: the five viewports drawn to scale with the gate table and the quarantine rule" /></td>
+    <td><img src="docs/specimens/ship.jpg" alt="gmira-ship: a steel clipboard checklist, ticked, with deploy held for an explicit go" /></td>
+  </tr>
+  <tr>
+    <td><b><code>gmira-a11y</code></b><br/><sub>Contrast pairs against WCAG lines</sub></td>
+    <td><b><code>gmira-perf</code></b><br/><sub>Greenbar ledger of the budget</sub></td>
+    <td><b><code>gmira-verify</code></b><br/><sub>Five viewports, gates, quarantine</sub></td>
+    <td><b><code>gmira-ship</code></b><br/><sub>Checklist, deploy held for go</sub></td>
+  </tr>
+</table>
+
 ## Built on
 
 Studied, with thanks: [pbakaus/impeccable](https://github.com/pbakaus/impeccable) for the taste engine and the anti-default mechanics, [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) for html-in-canvas technique, [bklit/bklit-ui](https://github.com/bklit/bklit-ui) for chart composition and skill packaging, [ncdai/chanhdai.com](https://github.com/ncdai/chanhdai.com) for structural craft, and [componentry](https://componentry.dev) for the arsenal.
