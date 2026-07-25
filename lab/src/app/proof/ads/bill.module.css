@@ -1,0 +1,82 @@
+/* Everything a fight bill needs that Tailwind utilities cannot say.
+   Three things only: the resting focus ring, the hatch used behind the overprint,
+   and the single authored moment on the main event line. */
+
+/* Focus ring. Offset is declared at rest so the ring never shifts layout when it
+   appears; the style, width and colour all arrive together on :focus-visible, which
+   is the state that matters. On the reversed plate the ring flips to poster stock so
+   it stays visible against black. */
+.focusable {
+  outline-offset: 3px;
+}
+.focusable:focus-visible {
+  outline: 3px solid var(--spot-hi);
+}
+.focusablePlate {
+  outline-offset: 3px;
+}
+.focusablePlate:focus-visible {
+  outline: 3px solid var(--stock);
+}
+
+/* Overprint hatch. Sits on its own aria-hidden layer so no text ever inherits a
+   background-image ancestor, which would make its contrast unmeasurable. */
+.hatch {
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--spot-hi) 0,
+    var(--spot-hi) 1px,
+    transparent 1px,
+    transparent 9px
+  );
+  opacity: 0.16;
+}
+
+/* The one authored moment: the weigh in. The two names close on the VS once, on
+   mount, and the rule between them draws out. Transform only, so the line is
+   complete and readable if the animation never runs. Nothing else on either
+   route animates on scroll or on mount. */
+.stareLeft {
+  animation: stare-left 620ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.stareRight {
+  animation: stare-right 620ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.stareRule {
+  animation: stare-rule 520ms 140ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  transform-origin: center;
+}
+
+@keyframes stare-left {
+  from {
+    transform: translate3d(-2.2rem, 0, 0);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes stare-right {
+  from {
+    transform: translate3d(2.2rem, 0, 0);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes stare-rule {
+  from {
+    transform: scaleX(0.08);
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* Total kill switch, not a slowdown. */
+@media (prefers-reduced-motion: reduce) {
+  .stareLeft,
+  .stareRight,
+  .stareRule {
+    animation: none;
+  }
+}
