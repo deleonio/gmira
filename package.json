@@ -1,0 +1,55 @@
+{
+  "name": "gmira",
+  "version": "0.1.0",
+  "description": "21 Claude Code skills for building web interfaces that do not look AI-generated. Written visual direction first, 7 shadcn registries (514 components), a GPU floor for WebGL, Playwright acceptance across 5 viewports.",
+  "keywords": [
+    "pi-package",
+    "pi-skill",
+    "design",
+    "frontend",
+    "shadcn",
+    "agent-skill",
+    "claude-code",
+    "skill"
+  ],
+  "pi": {
+    "skills": [
+      "skills/gmira-a11y/SKILL.md",
+      "skills/gmira-arsenal/SKILL.md",
+      "skills/gmira-brief/SKILL.md",
+      "skills/gmira-canvas/SKILL.md",
+      "skills/gmira-catalog/SKILL.md",
+      "skills/gmira-detail/SKILL.md",
+      "skills/gmira-direction/SKILL.md",
+      "skills/gmira-flow/SKILL.md",
+      "skills/gmira-hero/SKILL.md",
+      "skills/gmira-motion/SKILL.md",
+      "skills/gmira-nav/SKILL.md",
+      "skills/gmira-palette/SKILL.md",
+      "skills/gmira-perf/SKILL.md",
+      "skills/gmira-proof/SKILL.md",
+      "skills/gmira-scroll/SKILL.md",
+      "skills/gmira-ship/SKILL.md",
+      "skills/gmira-slop/SKILL.md",
+      "skills/gmira-states/SKILL.md",
+      "skills/gmira-typeset/SKILL.md",
+      "skills/gmira-verify/SKILL.md",
+      "skills/gmira/SKILL.md"
+    ]
+  },
+  "files": [
+    "README.md",
+    "README.en.md",
+    "skills/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OthmanAdi/gmira.git"
+  },
+  "author": "Ahmad Othman Ammar Adi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OthmanAdi/gmira/issues"
+  },
+  "homepage": "https://github.com/OthmanAdi/gmira#readme"
+}

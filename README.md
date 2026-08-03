@@ -96,6 +96,12 @@ git clone https://github.com/OthmanAdi/gmira.git
 cp -r gmira/skills/* ~/.claude/skills/
 ```
 
+也可以从 npm 安装（[gmira](https://www.npmjs.com/package/gmira)，一个包带全 21 个技能）：
+
+```bash
+pi install npm:gmira
+```
+
 然后把组件注册表接进项目的 `components.json`：
 
 ```json

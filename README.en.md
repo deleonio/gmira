@@ -96,6 +96,12 @@ git clone https://github.com/OthmanAdi/gmira.git
 cp -r gmira/skills/* ~/.claude/skills/
 ```
 
+Or from npm ([gmira](https://www.npmjs.com/package/gmira), all 21 skills in one package):
+
+```bash
+pi install npm:gmira
+```
+
 Then wire the component registries into your project's `components.json`:
 
 ```json
