@@ -1,6 +1,6 @@
 ---
 name: gmira-states
-description: Use when building or reviewing any interactive surface: buttons, links, forms, filters, tables, cards, uploads, and anything that fetches. Also use when a component only has a default state, when the focus outline was removed, when a spinner flashes on a fast connection, when a disabled button gives no reason, when an error says only that something went wrong, or when the empty screen says "No results" and nothing else. Covers the six states every interactive surface ships (hover, focus, disabled, loading, error, empty), the three kinds of disabled, the three kinds of empty, and how to force each one in the browser so it can actually be reviewed.
+description: "Use when building or reviewing any interactive surface: buttons, links, forms, filters, tables, cards, uploads, and anything that fetches. Also use when a component only has a default state, when the focus outline was removed, when a spinner flashes on a fast connection, when a disabled button gives no reason, when an error says only that something went wrong, or when the empty screen says \"No results\" and nothing else. Covers the six states every interactive surface ships (hover, focus, disabled, loading, error, empty), the three kinds of disabled, the three kinds of empty, and how to force each one in the browser so it can actually be reviewed."
 ---
 
 # States

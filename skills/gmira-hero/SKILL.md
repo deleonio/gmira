@@ -1,6 +1,6 @@
 ---
 name: gmira-hero
-description: Use when building, rewriting, or auditing the first viewport of any page: landing hero, campaign header, category header, vehicle detail top, course page opener, portfolio opener. Also use when a hero came out as a centered headline with two buttons, when the shader background looks like a filter someone left on, when the hero is blank until the visitor moves the mouse, when the headline uses gradient text or a tracked uppercase eyebrow, or when someone is about to install a three.js hero. Owns the page effect budget, the frame-0 decision, and the bounded-versus-full-bleed call.
+description: "Use when building, rewriting, or auditing the first viewport of any page: landing hero, campaign header, category header, vehicle detail top, course page opener, portfolio opener. Also use when a hero came out as a centered headline with two buttons, when the shader background looks like a filter someone left on, when the hero is blank until the visitor moves the mouse, when the headline uses gradient text or a tracked uppercase eyebrow, or when someone is about to install a three.js hero. Owns the page effect budget, the frame-0 decision, and the bounded-versus-full-bleed call."
 ---
 
 # Hero

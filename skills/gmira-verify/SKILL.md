@@ -1,6 +1,6 @@
 ---
 name: gmira-verify
-description: Use before handing any web surface back to a user, and whenever a page needs checking at real viewport sizes. Runs Playwright across five viewports, captures screenshots, collects console errors, measures computed contrast and text overflow, exercises pointer-driven effects with a real mouse, and checks reduced-motion and canvas-deleted fallbacks. Also use when something looks right in one browser size and wrong in another, when an effect "works" but nothing visible happens, or when a build passed lint but nobody has actually looked at it.
+description: "Use before handing any web surface back to a user, and whenever a page needs checking at real viewport sizes. Runs Playwright across five viewports, captures screenshots, collects console errors, measures computed contrast and text overflow, exercises pointer-driven effects with a real mouse, and checks reduced-motion and canvas-deleted fallbacks. Also use when something looks right in one browser size and wrong in another, when an effect \"works\" but nothing visible happens, or when a build passed lint but nobody has actually looked at it."
 ---
 
 # Verify

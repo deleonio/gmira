@@ -1,6 +1,6 @@
 ---
 name: gmira-catalog
-description: Use when building or fixing any page that presents a set of things: vehicle inventory, product listing (PLP), category page, course or cohort catalog, module index, creative wall, project archive, team page, or search results. Also use when a set came out as a uniform card grid, when descriptions are line-clamped so every card matches height, when a filtered view cannot be shared as a URL, when infinite scroll made the footer unreachable or lost scroll position on back, or when a canvas gallery left products uncrawlable. Covers the seven set structures, faceted filtering and sorting, pagination, image crop discipline, zero-results and empty states, and loading as a design surface.
+description: "Use when building or fixing any page that presents a set of things: vehicle inventory, product listing (PLP), category page, course or cohort catalog, module index, creative wall, project archive, team page, or search results. Also use when a set came out as a uniform card grid, when descriptions are line-clamped so every card matches height, when a filtered view cannot be shared as a URL, when infinite scroll made the footer unreachable or lost scroll position on back, or when a canvas gallery left products uncrawlable. Covers the seven set structures, faceted filtering and sorting, pagination, image crop discipline, zero-results and empty states, and loading as a design surface."
 ---
 
 # Catalog

@@ -1,6 +1,6 @@
 ---
 name: gmira-slop
-description: Use when a built page needs the audit for the visual tells no detector catches, or when someone says a page looks generic, templated, bland, stock, or "AI-made" and cannot say why. Run it before showing any surface to the user, and again after a redesign pass. Detects uniform section rhythm, the three-column reflex, one crop ratio everywhere, accent-as-confetti, identical section entrances, the icon-plus-heading-plus-two-lines feature card, the ghost card, grids that truncate real content to stay even, decorative chrome standing in for data, a full-bleed effect turned down until it does nothing, and single-registry house style. Produces a findings table with severity that says what should happen, plus a specificity score per section.
+description: "Use when a built page needs the audit for the visual tells no detector catches, or when someone says a page looks generic, templated, bland, stock, or \"AI-made\" and cannot say why. Run it before showing any surface to the user, and again after a redesign pass. Detects uniform section rhythm, the three-column reflex, one crop ratio everywhere, accent-as-confetti, identical section entrances, the icon-plus-heading-plus-two-lines feature card, the ghost card, grids that truncate real content to stay even, decorative chrome standing in for data, a full-bleed effect turned down until it does nothing, and single-registry house style. Produces a findings table with severity that says what should happen, plus a specificity score per section."
 ---
 
 # Slop

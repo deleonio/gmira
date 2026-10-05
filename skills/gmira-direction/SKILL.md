@@ -1,6 +1,6 @@
 ---
 name: gmira-direction
-description: Use before building or redesigning any web surface, and whenever a page has come out bland, templated, safe, or "AI-looking". Produces the written visual direction that everything else is built against: the material world, the thesis, the structural form, and what is on screen in the first viewport. Also use when a design review keeps producing small fixes that do not add up, when two people disagree about a page without being able to say why, or when output looks competent but interchangeable with any competitor.
+description: "Use before building or redesigning any web surface, and whenever a page has come out bland, templated, safe, or \"AI-looking\". Produces the written visual direction that everything else is built against: the material world, the thesis, the structural form, and what is on screen in the first viewport. Also use when a design review keeps producing small fixes that do not add up, when two people disagree about a page without being able to say why, or when output looks competent but interchangeable with any competitor."
 ---
 
 # Direction

@@ -1,6 +1,6 @@
 ---
 name: gmira-canvas
-description: Use when authoring, integrating, or auditing any canvas or WebGL surface on a website: shader backgrounds, fluid and particle effects, html-in-canvas (drawElement) effects that displace live DOM, scroll-driven GPU work, and generative visuals. Also use when a canvas effect is slow, heats the device, renders black after a tab switch, breaks on mobile, disappears under reduced motion, or leaks GPU memory on route change. Owns the GPU performance floor and the canvas accessibility fallback.
+description: "Use when authoring, integrating, or auditing any canvas or WebGL surface on a website: shader backgrounds, fluid and particle effects, html-in-canvas (drawElement) effects that displace live DOM, scroll-driven GPU work, and generative visuals. Also use when a canvas effect is slow, heats the device, renders black after a tab switch, breaks on mobile, disappears under reduced motion, or leaks GPU memory on route change. Owns the GPU performance floor and the canvas accessibility fallback."
 ---
 
 # Canvas

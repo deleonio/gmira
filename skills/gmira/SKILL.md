@@ -1,6 +1,6 @@
 ---
 name: gmira
-description: Use when building, redesigning, or reviewing a website or web surface that must not look generated. Covers landing pages, e-commerce (PLP, PDP, cart, checkout), car and vehicle inventory sites, course and cohort school pages, portfolios, dashboards, and marketing sites. Handles visual direction, WebGL and canvas effects, shadcn registry components, scroll choreography, typography, color, motion, empty and error states, accessibility, performance budgets, and multi-viewport visual verification. Also use when a page came out bland, templated, or "AI-looking" and needs a real direction, or when an installed registry component renders wrong.
+description: "Use when building, redesigning, or reviewing a website or web surface that must not look generated. Covers landing pages, e-commerce (PLP, PDP, cart, checkout), car and vehicle inventory sites, course and cohort school pages, portfolios, dashboards, and marketing sites. Handles visual direction, WebGL and canvas effects, shadcn registry components, scroll choreography, typography, color, motion, empty and error states, accessibility, performance budgets, and multi-viewport visual verification. Also use when a page came out bland, templated, or \"AI-looking\" and needs a real direction, or when an installed registry component renders wrong."
 ---
 
 # Gmira

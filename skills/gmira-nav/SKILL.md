@@ -1,6 +1,6 @@
 ---
 name: gmira-nav
-description: Use when building or auditing site chrome: header, primary navigation, mobile menu, command palette, breadcrumbs, table of contents, progress rail, theme toggle, skip link, footer. Also use when the nav is a floating blurred pill identical to every other site, when a hamburger appears on desktop, when six links became a mega-menu, when a command palette was added to a marketing page, when an overlay traps or loses keyboard focus, when Escape does not close, when the footer is four columns of invented links, or when the page has a strong direction that stops at the header. Owns skip link, focus return, aria-current, and the line-rule system that makes chrome feel authored.
+description: "Use when building or auditing site chrome: header, primary navigation, mobile menu, command palette, breadcrumbs, table of contents, progress rail, theme toggle, skip link, footer. Also use when the nav is a floating blurred pill identical to every other site, when a hamburger appears on desktop, when six links became a mega-menu, when a command palette was added to a marketing page, when an overlay traps or loses keyboard focus, when Escape does not close, when the footer is four columns of invented links, or when the page has a strong direction that stops at the header. Owns skip link, focus return, aria-current, and the line-rule system that makes chrome feel authored."
 ---
 
 # Nav

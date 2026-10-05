@@ -1,6 +1,6 @@
 ---
 name: gmira-scroll
-description: Use when building or auditing anything that happens because the page scrolled: reveal animations, pinned or sticky sections, scrub-driven timelines, parallax, tilted galleries, sticky card stacks, progress indicators, smooth scroll. Also use when every section fades up identically, when scrolling stutters or the page feels heavy on a trackpad, when two components fight over the same scroll position, when a pinned section jumps or double-counts, when someone is about to add a `scroll` listener, or when reduced motion still animates. Owns the one-authored-moment rule and the no-layout-reads-in-a-scroll-handler rule.
+description: "Use when building or auditing anything that happens because the page scrolled: reveal animations, pinned or sticky sections, scrub-driven timelines, parallax, tilted galleries, sticky card stacks, progress indicators, smooth scroll. Also use when every section fades up identically, when scrolling stutters or the page feels heavy on a trackpad, when two components fight over the same scroll position, when a pinned section jumps or double-counts, when someone is about to add a `scroll` listener, or when reduced motion still animates. Owns the one-authored-moment rule and the no-layout-reads-in-a-scroll-handler rule."
 ---
 
 # Scroll

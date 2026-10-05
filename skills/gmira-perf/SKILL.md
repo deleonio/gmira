@@ -1,6 +1,6 @@
 ---
 name: gmira-perf
-description: Use when a page carries effects and needs a budget gate: bundle weight, Core Web Vitals, frame cost, images, fonts, and GPU teardown. Also use when a hero is slow to appear, when the phone gets hot, when a route change leaves a dead black canvas behind, when a later page's canvas silently renders nothing, when three.js turned up in the bundle for one component, when the LCP image is lazy-loaded, or when scroll feels heavy on a mid-range device. Owns the GPU floor from the doctrine Part 4, the WebGL context cap of roughly 16, and the rule that the effect mounts after content and never blocks first contentful paint. Includes the Lighthouse and Playwright recipes to measure each number rather than guess it.
+description: "Use when a page carries effects and needs a budget gate: bundle weight, Core Web Vitals, frame cost, images, fonts, and GPU teardown. Also use when a hero is slow to appear, when the phone gets hot, when a route change leaves a dead black canvas behind, when a later page's canvas silently renders nothing, when three.js turned up in the bundle for one component, when the LCP image is lazy-loaded, or when scroll feels heavy on a mid-range device. Owns the GPU floor from the doctrine Part 4, the WebGL context cap of roughly 16, and the rule that the effect mounts after content and never blocks first contentful paint. Includes the Lighthouse and Playwright recipes to measure each number rather than guess it."
 ---
 
 # Perf

@@ -1,6 +1,6 @@
 ---
 name: gmira-arsenal
-description: Use when installing, repairing, or taming any shadcn registry component (componentry, canvas-ui, bklit, ncdai, kibo-ui, react-bits, soundcn). Also use when an installed component fails to build, imports a package that is not there, renders the wrong colors, shows a blown-out glow, ignores its own props, or looks like the library's demo instead of the brief. Covers registry search, install, import repair, dependency repair, welded-constant auditing, and palette verification.
+description: "Use when installing, repairing, or taming any shadcn registry component (componentry, canvas-ui, bklit, ncdai, kibo-ui, react-bits, soundcn). Also use when an installed component fails to build, imports a package that is not there, renders the wrong colors, shows a blown-out glow, ignores its own props, or looks like the library's demo instead of the brief. Covers registry search, install, import repair, dependency repair, welded-constant auditing, and palette verification."
 ---
 
 # Arsenal

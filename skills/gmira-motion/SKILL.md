@@ -1,6 +1,6 @@
 ---
 name: gmira-motion
-description: Use when adding, reviewing, or cutting motion on a web surface: scroll reveals, hero entrances, hover feedback, page and view transitions, pointer-following effects, and canvas or shader timing. Also use when every section fades up identically, when the page renders blank because a reveal script did not run, when an animation feels right on a 60Hz laptop and twitchy on a 120Hz phone, when reduced motion only slows things down instead of stopping them, or when someone asks to "add some animation" with no stated reason. Owns the one authored moment, the duration and easing table, the material palette past transform and opacity, and frame-rate independent easing.
+description: "Use when adding, reviewing, or cutting motion on a web surface: scroll reveals, hero entrances, hover feedback, page and view transitions, pointer-following effects, and canvas or shader timing. Also use when every section fades up identically, when the page renders blank because a reveal script did not run, when an animation feels right on a 60Hz laptop and twitchy on a 120Hz phone, when reduced motion only slows things down instead of stopping them, or when someone asks to \"add some animation\" with no stated reason. Owns the one authored moment, the duration and easing table, the material palette past transform and opacity, and frame-rate independent easing."
 ---
 
 # Motion

@@ -1,6 +1,6 @@
 ---
 name: gmira-a11y
-description: Use when auditing a built page for contrast, keyboard operation, semantics, and canvas fallback. Also use when text sits on a colored or image background and nobody measured it, when the focus outline was removed, when tab order jumps around the screen, when a div is being used as a button, when a canvas or WebGL layer carries text or controls, when a form field has no label, or when reduced motion only slows an animation down. Runs at audit time and not during design, because an accessibility reminder while designing produces timid underdesigned output. Ships a runnable DOM audit that computes contrast from computed styles rather than eyeballing it.
+description: "Use when auditing a built page for contrast, keyboard operation, semantics, and canvas fallback. Also use when text sits on a colored or image background and nobody measured it, when the focus outline was removed, when tab order jumps around the screen, when a div is being used as a button, when a canvas or WebGL layer carries text or controls, when a form field has no label, or when reduced motion only slows an animation down. Runs at audit time and not during design, because an accessibility reminder while designing produces timid underdesigned output. Ships a runnable DOM audit that computes contrast from computed styles rather than eyeballing it."
 ---
 
 # A11y

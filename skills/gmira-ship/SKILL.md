@@ -1,6 +1,6 @@
 ---
 name: gmira-ship
-description: Use when a web surface is finished and needs to be built, staged, or deployed, and when preparing a release of the work. Covers the production build, bundle and asset checks, metadata and social cards, robots and sitemap, redirects, environment separation, and the staging handoff. Also use when someone asks to publish, push live, or deploy, because this skill holds the rule that deployment needs an explicit human go.
+description: "Use when a web surface is finished and needs to be built, staged, or deployed, and when preparing a release of the work. Covers the production build, bundle and asset checks, metadata and social cards, robots and sitemap, redirects, environment separation, and the staging handoff. Also use when someone asks to publish, push live, or deploy, because this skill holds the rule that deployment needs an explicit human go."
 ---
 
 # Ship

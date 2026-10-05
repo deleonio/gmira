@@ -1,6 +1,6 @@
 ---
 name: gmira-detail
-description: Use when building or fixing a page about one single thing in depth: a product detail page (PDP), a vehicle or listing detail page, a course or module page, a cohort page, an instructor or team-member profile, a property page, or a case study. Also use when specs are a flat list of label/value divs, when numbers do not align in columns, when an out-of-stock size is a dead disabled button, when the gallery is a canvas so the images are not indexable, when the sticky buy rail overruns the viewport, or when the mobile page is the desktop page in one column. Covers the per-vertical content model, readable spec tables, variant and configuration state, galleries, sticky rails, verifiable trust content, related items, and mobile ordering.
+description: "Use when building or fixing a page about one single thing in depth: a product detail page (PDP), a vehicle or listing detail page, a course or module page, a cohort page, an instructor or team-member profile, a property page, or a case study. Also use when specs are a flat list of label/value divs, when numbers do not align in columns, when an out-of-stock size is a dead disabled button, when the gallery is a canvas so the images are not indexable, when the sticky buy rail overruns the viewport, or when the mobile page is the desktop page in one column. Covers the per-vertical content model, readable spec tables, variant and configuration state, galleries, sticky rails, verifiable trust content, related items, and mobile ordering."
 ---
 
 # Detail
